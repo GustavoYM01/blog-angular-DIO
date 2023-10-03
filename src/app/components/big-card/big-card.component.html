@@ -1,22 +1,15 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img
-      src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png"
-      height="200px"
-      alt=""
-    />
+    <img src="{{ photoCover }}" height="200px" alt="" />
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Nova versão do Angular</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
-      <a href="#"
-        >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-        consequuntur delectus non, sapiente asperiores hic ducimus neque
-        corrupti sint, labore necessitatibus doloremque. Dolorem molestiae quia
-        explicabo pariatur reiciendis veniam dignissimos.</a
-      >
+      <a href="#">{{ cardDescription }}</a>
     </p>
   </div>
 </div>
